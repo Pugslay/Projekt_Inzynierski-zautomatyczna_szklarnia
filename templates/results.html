@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podsumowanie</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result_style.css') }}">
+</head>
+<body>
+    <h1>Aktualne dane:</h1>
+    <p>Temperatura: {{ slider_temp }}</p>
+    <p>Poziom wilgotności: {{ slider_humandity }}</p>
+    <a href="/">Powrót do menu</a>
+</body>
+</html>

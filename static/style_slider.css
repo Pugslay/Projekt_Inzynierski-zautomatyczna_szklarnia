@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Jasnozielone tło */
+    color: #1b5e20; /* Ciemnozielony tekst */
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #2e7d32; /* Głęboki zielony nagłówek */
+}
+
+form {
+    background-color: #c8e6c9; /* Jasnozielony kontener formularza */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+/* Stylizacja etykiety */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #388e3c; /* Zielony kolor tekstu etykiety */
+}
+
+/* Stylizacja checkboxa */
+input[type="checkbox"] {
+    margin-right: 8px; /* Odstęp od tekstu */
+    accent-color: #388e3c; /* Kolor zaznaczenia checkboxa (wspierane w nowoczesnych przeglądarkach) */
+}
+
+/* Stylizacja paska suwaka */
+input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #81c784; /* Pasek suwaka w jasnej zieleni */
+    height: 8px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #388e3c; /* Ciemniejszy zielony dla uchwytu */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #388e3c;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Stylizacja przycisków */
+button {
+    background-color: #388e3c; /* Ciemnozielony przycisk */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2e7d32; /* Kolor przycisku po najechaniu */
+}
+
+/* Stylizacja output */
+output {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #1b5e20;
+}

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8e9; /* Jasne zielone tło */
+    color: #1b5e20; /* Ciemnozielony kolor tekstu */
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #2e7d32; /* Ciemny zielony kolor nagłówka */
+}
+
+p {
+    font-size: 18px;
+    color: #388e3c; /* Średni zielony kolor tekstu */
+    margin: 10px 0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50; /* Zielony przycisk */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #388e3c; /* Ciemniejszy kolor po najechaniu */
+}

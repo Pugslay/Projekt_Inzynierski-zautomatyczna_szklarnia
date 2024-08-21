@@ -1,0 +1,52 @@
+/* Ogólne style */
+body {
+    font-family: "Franklin Gothic Heavy", fantasy;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    width: 65vw; /* Szerokość kontenera jako procent szerokości okna przeglądarki */
+    height: 20vh; /* Wysokość kontenera jako procent wysokości okna przeglądarki */
+    max-width: 1200px; /* Maksymalna szerokość kontenera */
+    padding: 2vw; /* Padding jako procent szerokości okna przeglądarki */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Wyśrodkowuje kontener */
+}
+.img1 {
+    width: 60vw; /* Szerokość kontenera jako procent szerokości okna przeglądarki */
+    height: 10vh; /* Wysokość kontenera jako procent wysokości okna przeglądarki */
+    max-width: 1200px; /* Maksymalna szerokość kontenera */
+
+}
+
+/* Stylizacja przycisku */
+.button {
+    background-color: #4CAF50; /* Zielony */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+body {
+    background-image: url("menu_tlo.jpg");
+    background-size: 100% 100%; /* Skalowanie do pełnej szerokości i wysokości kontenera */
+}

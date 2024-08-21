@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliders</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_slider.css') }}">
+</head>
+<body>
+    <h1>Adjust the sliders</h1>
+    <form method="POST">
+        <label for="slider_temp">Temperatura:</label>
+        <input type="range" id="slider_temp" name="slider_temp" min="0" max="30" value="15" oninput="this.nextElementSibling.value = this.value">
+        <output>15</output>
+        <br><br>
+
+        <label for="slider_humandity">Wilgotność:</label>
+        <input type="range" id="slider_humandity" name="slider_humandity" min="0" max="400" value="200" oninput="this.nextElementSibling.value = this.value">
+        <output>200</output>
+        <br><br>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="light" name="light" value="1">
+            <label for="check1">Czy ma być oświetlany nocą?</label>
+        </div>
+        <br><br>
+
+        <button type="submit">Zapisz</button>
+    </form>
+</body>
+</html>

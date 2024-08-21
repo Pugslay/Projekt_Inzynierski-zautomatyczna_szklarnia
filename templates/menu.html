@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <img class="img1" src="{{ url_for('static', filename='menu_graf1.png') }}" class="my-image">
+        <form action="/centrum" method="GET">
+            <div><button class="button">Przedź dalej</button></div>
+        </form>
+    </div>
+</body>
+</html>
