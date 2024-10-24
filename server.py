@@ -27,3 +27,5 @@ def start_server():
 
         # Zamknięcie połączenia z klientem
         client_socket.close()
+
+start_server()
