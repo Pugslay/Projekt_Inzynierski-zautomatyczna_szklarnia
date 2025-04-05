@@ -13,7 +13,7 @@ body {
     text-align: center;
     background-color: #ffffff;
     width: 65vw; /* Szerokość kontenera jako procent szerokości okna przeglądarki */
-    height: 20vh; /* Wysokość kontenera jako procent wysokości okna przeglądarki */
+    height: 30vh; /* Wysokość kontenera jako procent wysokości okna przeglądarki */
     max-width: 1200px; /* Maksymalna szerokość kontenera */
     padding: 2vw; /* Padding jako procent szerokości okna przeglądarki */
     border-radius: 10px;

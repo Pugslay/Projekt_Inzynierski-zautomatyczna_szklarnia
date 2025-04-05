@@ -3,7 +3,7 @@ body {
     background-color: #e8f5e9; /* Jasnozielone tło */
     color: #1b5e20; /* Ciemnozielony tekst */
     text-align: center;
-    padding: 50px;
+    padding: 20vh;
 }
 
 h1 {
@@ -29,7 +29,7 @@ label {
 
 /* Stylizacja checkboxa */
 input[type="checkbox"] {
-    margin-right: 8px; /* Odstęp od tekstu */
+    margin-right: 10px; /* Odstęp od tekstu */
     accent-color: #388e3c; /* Kolor zaznaczenia checkboxa (wspierane w nowoczesnych przeglądarkach) */
 }
 
