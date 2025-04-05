@@ -1,34 +1,3 @@
-<<<<<<< Updated upstream
-import time
-
-import app as a
-import server as srv
-
-
-print("""----- SERVER START -----""")
-try:
-    srv.start_server()
-    print("""----- SERVER RUN SUCCESFUL -----""")
-except:
-    print("---- SERVER ERROR ----")
-
-print("""----- FLASK RUN -----""")
-try:
-    a.run_flask()
-    print("""----- PAGE RUN SUCCESFUL -----""")
-except:
-    print("---- FLASK ERROR ----")
-
-time.sleep(1000)
-
-
-
-
-
-
-
-
-=======
 from flask import Flask, render_template, Response
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -124,4 +93,4 @@ def plot_png_2():
 
 if __name__ == "__main__":
     app.run(debug=True)
->>>>>>> Stashed changes
+
